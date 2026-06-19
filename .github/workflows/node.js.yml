@@ -24,6 +24,6 @@ jobs:
         node-version: '24.x'
         
     - name: install newman
-      run: npm run install -g newman
+      run: npm install -g newman
     - name: run test
       run: newman run jb-api-junio.json
